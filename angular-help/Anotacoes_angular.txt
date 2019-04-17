@@ -8,3 +8,7 @@ No angular.json, adicionar em styles:
 
 * iniciar servidor
 ng serve
+
+* criar estrutura de components
+ng g c nome --spec false (--spec false não gera os arquivos de teste)
+*** se não quiser criar na pasta root, informar a pasta antes do nome do component
