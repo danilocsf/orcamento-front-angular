@@ -1,0 +1,10 @@
+* Criar novo project:
+ng new NOME_DO_PROJETO
+
+* Instalar bootstrap 3 em Angular CLI 6+
+npm i --save bootstrap@3
+No angular.json, adicionar em styles:
+"node_modules/bootstrap/dist/css/bootstrap.min.css",
+
+* iniciar servidor
+ng serve

@@ -1,5 +1,0 @@
-* Criar novo project:
-ng new NOME_DO_PROJETO
-
-* iniciar servidor
-ng serve
