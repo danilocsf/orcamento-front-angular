@@ -12,3 +12,6 @@ ng serve
 * criar estrutura de components
 ng g c nome --spec false (--spec false não gera os arquivos de teste)
 *** se não quiser criar na pasta root, informar a pasta antes do nome do component
+
+* Validações RactiveForms
+https://medium.com/manacespereira/angular-ractiveforms-valida%C3%A7%C3%B5es-customizadas-com-formul%C3%A1rios-reativos-no-angular-6-3a3338f9add9

@@ -6,6 +6,9 @@ import { HeaderComponent } from './modules/header/header.component';
 import { ListIncomeComponent } from './modules/incomes/list/list-income.component';
 import { DetailIncomeComponent } from './modules/incomes/detail/detail-income.component';
 import { CreateUpdateIncomeComponent } from './modules/incomes/create-update/create-update-income.component';
+import { ListCategoryComponent } from './modules/category/list/list-category.component';
+import { DetailCategoryComponent } from './modules/category/detail/detail-category.component';
+import { CreateUpdateCategoryComponent } from './modules/category/create-update/create-update-category.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +16,10 @@ import { CreateUpdateIncomeComponent } from './modules/incomes/create-update/cre
     HeaderComponent,
     ListIncomeComponent,
     DetailIncomeComponent,
-    CreateUpdateIncomeComponent
+    CreateUpdateIncomeComponent,
+    ListCategoryComponent,
+    DetailCategoryComponent,
+    CreateUpdateCategoryComponent
   ],
   imports: [
     BrowserModule
