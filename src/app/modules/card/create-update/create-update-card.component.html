@@ -1,0 +1,10 @@
+<form [formGroup]="formCard">
+  <div class="form-group">
+    <label for="cardOwner">Usuário do cartão</label>
+    <input type="text" class="form-control" id="cardOwner" formControlName="cardOwner">
+    <label for="cardNumber">Número do cartão</label>
+    <input type="text" class="form-control" id="cardNumber" formControlName="cardNumber">
+    <label for="active">Ativo</label>
+    <input type="checkbox" class="form-control" id="active" formControlName="active">
+  </div>
+  </form>
